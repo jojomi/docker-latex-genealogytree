@@ -1,0 +1,42 @@
+\documentclass[12pt,paper=a4,ngerman]{scrartcl}
+
+\usepackage[all]{genealogytree}
+\gtrset{language=german-german}
+
+\begin{document}
+\begin{tcolorbox}[enhanced,sharp corners,boxrule=0.6pt,left=0pt,right=0pt,
+colback=blue!50!black,interior style image=goldshade.png,
+halign=center,center title,fonttitle=\bfseries,
+title={Familie Gauss} ]
+\begin{genealogypicture}[
+processing=database,
+database format=medium marriage below,
+node size=2.4cm,
+level size=3.5cm,
+level distance=6mm,
+list separators hang,
+name font=\bfseries,
+surn code={\textcolor{red!50!black}{#1}},
+place text={\newline}{},
+date format=dd.mm.yyyy,
+tcbset={male/.style={colframe=blue,colback=blue!5},
+female/.style={colframe=red,colback=red!5}},
+box={fit basedim=7pt,boxsep=2pt,segmentation style=solid,
+halign=flush left,before upper=\parskip1pt,
+\gtrDBsex,drop fuzzy shadow,
+if image defined={add to width=25mm,right=25mm,
+underlay={\begin{tcbclipinterior}\path[fill overzoom image=\gtrDBimage]
+([xshift=-24mm]interior.south east) rectangle (interior.north east);
+\end{tcbclipinterior}},
+}{},
+},
+edges=rounded,
+symbols record reset,
+after tree={\node[font=\scriptsize\itshape,text width=1.8cm,below left,
+fill=white,fill opacity=0.4,text opacity=1]
+at (current bounding box.north east) {\gtrSymbolsLegend};},
+]
+input{example.gauss.graph}
+\end{genealogypicture}
+\end{tcolorbox}
+\end{document}

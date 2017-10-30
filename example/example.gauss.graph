@@ -1,0 +1,137 @@
+sandclock{
+child[id=GauaOsth1805]{
+p[id=OsthJoha1780]{
+female,
+name={\pref{Johanna} Elisabeth Rosina \surn{Osthoff}},
+birth={1780-05-08}{Braunschweig (Niedersachsen)},
+marriage={1805-10-09}{Braunschweig (Niedersachsen)},
+death={1809-10-11}{G\"ottingen (Niedersachsen)},
+comment={Wei\ss{}gerberstochter},
+}
+g[id=GauxCarl1777]{
+male,
+name={Johann \pref{Carl Friedrich} \surn{Gau\ss{}}},
+birth={1777-04-30}{Braunschweig (Niedersachsen)},
+death={1855-02-23}{G\"ottingen (Niedersachsen)},
+profession={Mathematiker, Astronom, Geod\"at und Physiker},
+}
+c[id=GauxCarl1806]{
+male,
+name={\pref{Carl} Joseph \surn{Gau\ss{}}},
+birth={1806-08-21}{Braunschweig (Niedersachsen)},
+death={1873-07-04}{Hannover (Niedersachsen)},
+}
+c[id=GauxWilh1808]{
+female,
+name={\pref{Wilhelmina} \surn{Gau\ss{}}},
+birth={1808-02-29}{G\"ottingen (Niedersachsen)},
+death={1840-08-12}{T\"ubingen (Baden-W\"urttemberg)},
+}
+c[id=GauxLudw1809]{
+male,
+name={\pref{Ludwig} \surn{Gau\ss{}}},
+birth={1809-09-10}{G\"ottingen (Niedersachsen)},
+death={1810-03-01}{G\"ottingen (Niedersachsen)},
+}
+union[id=GauaWald1810]{
+p[id=WaldFrie1788]{
+female,
+name={\pref{Friederica} Wilhelmine \surn{Waldeck}},
+birth={1788-04-15}{G\"ottingen (Niedersachsen)},
+marriage={1810-08-14}{G\"ottingen (Niedersachsen)},
+death={1831-09-12}{G\"ottingen (Niedersachsen)},
+comment={Rechtswissenschaftlerstochter},
+}
+c[id=GauxEuge1811]{
+male,
+name={\pref{Eugen} Peter Samuel Marius \surn{Gau\ss{}}},
+birth={1811-07-29}{G\"ottingen (Niedersachsen)},
+death={1896-07-04}{Columbia (Missouri)},
+profession={Rechtswissenschaftler, Kaufmann},
+}
+c[id=GauxWilh1813]{
+male,
+name={\pref{Wilhelm} August Carl Matthias \surn{Gau\ss{}}},
+39
+birth={1813-10-23}{G\"ottingen (Niedersachsen)},
+death={1879-08-23}{St. Louis (Missouri)},
+}
+c[id=GauxTher1816]{
+female,
+name={Henriette Wilhelmine Karoline \pref{Therese} \surn{Gau\ss{}}},
+birth={1816-06-09}{G\"ottingen (Niedersachsen)},
+death={1864-02-11}{Dresden (Sachsen)},
+}
+}
+}
+parent[id=GoosEgge1735]{
+g[id=GauxGebh1743]{
+male,
+name={\pref{Gebhard} Dietrich \surn{Gau\ss{}}},
+birth={1743-02-13}{Braunschweig (Niedersachsen)},
+death={1808-04-14}{Braunschweig (Niedersachsen)},
+profession={G\"artner, Wasserkunstmeister, Rechnungsf\"uhrer},
+}
+parent[id=GoosLbtk1705]{
+g[id=GoosJyrg1715]{
+male,
+name={\pref{J\"urgen} \surn{Gooss}},
+birth={1715}{V\"olkenrode (Niedersachen)},
+death={1774-07-05}{Braunschweig (Niedersachsen)},
+profession={Lehmmaurer},
+}
+p[id=GoosHinr1655]{
+male,
+name={\pref{Hinrich} \surn{Gooss}},
+birth={(caAD)1655}{},
+death={1726-10-25}{V\"olkenrode (Niedersachen)},
+}
+p[id=LxtkKath1674]{
+female,
+name={\pref{Katharina} \surn{L\"utken}},
+birth={1674-08-19}{V\"olkenrode (Niedersachen)},
+marriage={1705-11-24}{V\"olkenrode (Niedersachen)},
+death={1749-04-15}{V\"olkenrode (Niedersachen)},
+}
+}
+p[id=EggeKath1710]{
+female,
+name={\pref{Katharina} Magdalena \surn{Eggenlings}},
+birth={(caAD)1710}{Rethen},
+marriage={(caAD)1735}{V\"olkenrode (Niedersachen)},
+death={1774-04-03}{Braunschweig (Niedersachsen)},
+}
+}
+parent[id=BentKron1740]{
+g[id=BenzDoro1743]{
+female,
+name={\pref{Dorothea} \surn{Benze}},
+birth={1743-06-18}{Velpke (Niedersachsen)},
+marriage={1776-04-25}{Velpke (Niedersachsen)},
+death={1839-04-18}{G\"ottingen (Niedersachsen)},
+comment={Steinhauerstochter},
+}
+parent[id=BentBbbb1740]{
+g[id=BentChri1717]{
+male,
+name={\pref{Christoph} \surn{Bentze}},
+birth={1717}{Velpke (Niedersachsen)},
+death={1748-09-01}{Velpke (Niedersachsen)},
+40
+profession={Steinhauer},
+}
+p[id=BentAndr1687]{
+male,
+name={\pref{Andreas} \surn{Bentze}},
+birth={1687-02}{},
+death={(caAD)1750}{Velpke (Niedersachsen)},
+}
+}
+p[id=KronKath1710]{
+female,
+name={\pref{Katharina} \surn{Krone}},
+birth={(caAD)1710}{},
+death={1743/}{Velpke (Niedersachsen)},
+}
+}
+}
